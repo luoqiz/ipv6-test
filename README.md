@@ -9,5 +9,5 @@
 
 部署测试
 ```
-docker run -d --name=ipv6-test -p 8080:8080 luoqiz/ipv6-test
+docker run -ip6 --name=ipv6-test -p 8080:8080 -d luoqiz/ipv6-test
 ```
